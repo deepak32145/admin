@@ -29,7 +29,7 @@ app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
 app.use("/sales", salesRoutes);
 
-// MONGOOSE SETUP
+// MONGOOSE SETUP done
 
 const PORT = process.env.PORT || 9000;
 mongoose
