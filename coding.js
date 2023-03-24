@@ -1,16 +1,8 @@
-setTimeout(() => {
-  console.log("settimeout");
-}, 0);
-let p = new Promise((resolve, reject) => {
-  let a = 1 + 1;
-  if (a == 2) {
-    resolve("success");
-  } else {
-    reject("failed");
+const str = "helloworld";
+const chararr = [];
+for (let i = 0; i < str.length; i++) {
+  if (!chararr.includes(str[i])) {
+    chararr.push(str[i]);
   }
-});
-p.then((res) => {
-  console.log(res);
-});
-
-console.log("Hi");
+}
+console.log(chararr);
