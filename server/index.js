@@ -11,8 +11,10 @@ import managementRoutes from "./routes/management.js";
 import salesRoutes from "./routes/sales.js";
 
 import User from "./models/User.js";
+import product from "./models/Product.js";
+import ProductStat from "./models/ProductStat.js";
 
-import { dataUser } from "./data/index.js";
+import { dataUser, dataProduct, dataProductStat } from "./data/index.js";
 
 // CONFIGURATION
 
@@ -28,7 +30,7 @@ app.use(cors());
 
 // Routes
 
-app.use("/clients", clientRoutes);
+app.use("/client", clientRoutes);
 app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
 app.use("/sales", salesRoutes);
