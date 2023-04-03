@@ -1,1 +1,4 @@
-console.log(50100052707155 == 50100052707155);
+function makeAdder(x) {}
+
+var plusOne = makeAdder(1);
+var plusTen = plusOne(10);
