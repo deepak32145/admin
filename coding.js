@@ -1,4 +1,2 @@
-function makeAdder(x) {}
-
-var plusOne = makeAdder(1);
-var plusTen = plusOne(10);
+const str = "deepak";
+console.log(str.substring(2));
